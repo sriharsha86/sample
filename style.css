@@ -1,0 +1,52 @@
+body {
+    margin: 20;
+    background: #e6e6e6;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 {
+    margin: 0;
+
+}
+.header {
+    font-size: 78px;
+    padding: 0;
+}
+
+.role {
+    font-size: large;
+    text-align: center;
+    align-items: center;
+}
+
+.intro {
+    margin: 30px;
+
+}
+.about-me {
+    margin: 30px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-decoration: underline;
+    align-items: center;
+}
+.projects{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:5vw;
+    margin: 30px;
+}
+
+.contact {
+    margin: 30px;
+}
+
+.inputs {
+    margin: auto;
+    padding: 10px;
+}
+input{
+    margin: 10px;
+}
